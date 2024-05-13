@@ -1,0 +1,555 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+
+.logo {
+    width: 100px; 
+    height: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    width: 100px; 
+    height: auto; 
+}
+
+h1 {
+    margin-left: 120px; 
+}
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+p{
+    text-align: left;
+    font-size: large;
+    color: #fdfdfd;
+}
+nav {
+    margin-left: 120px; 
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    width: 100px; 
+    height: auto; 
+}
+
+h1, nav {
+    margin-left: 120px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+h1, nav {
+    margin-left: 120px;
+}
+
+section {
+    padding: 20px; 
+}
+
+
+.home-image {
+    position: relative;
+    text-align: center;
+}
+
+.home-image img {
+    width: 100%; 
+    max-height: 100vh; 
+}
+
+.image-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
+
+.product-card {
+    margin: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.product-card img {
+    width: 100%; 
+    max-height: 150px; 
+    object-fit: cover; 
+}
+
+.card-details {
+    padding: 15px;
+}
+
+.card-details h3 {
+    margin-top: 0;
+}
+
+
+
+.home-images {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.image-container {
+    flex: 1; 
+    margin: 20px;
+    overflow: hidden; 
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.contact-info,
+.contact-form {
+    width: 48%; 
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    line-height: 1.6;
+    text-align: justify;    
+}
+
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .card {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .card h2 {
+            color: #333;
+        }
+
+        .about-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-text {
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+    
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+ position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.home-image {
+    position: relative;
+}
+
+.home-image img {
+    width: 100%;
+    height: auto;
+}
+
+.image-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.home-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.order-form h3 {
+    color: #333;
+}
+
+.order-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.order-form input,
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background-color: #555;
+}
+.xy{
